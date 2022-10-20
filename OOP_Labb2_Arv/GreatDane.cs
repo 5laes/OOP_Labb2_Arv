@@ -19,6 +19,11 @@ namespace OOP_Labb2_Arv
             this.isSleeping = isSleeping;
         }
 
+        public GreatDane() : this("No Name", 0, 0, "No Sound", "No Color", 0, false)
+        {
+
+        }
+
         public void CheckSleep()
         {
             if (isSleeping == true)

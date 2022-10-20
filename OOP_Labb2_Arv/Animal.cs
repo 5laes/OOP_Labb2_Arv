@@ -26,6 +26,5 @@ namespace OOP_Labb2_Arv
         {
             Console.Write($"\n\t{name} är {age} år gammal.");
         }
-
     }
 }

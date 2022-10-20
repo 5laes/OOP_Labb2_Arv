@@ -18,6 +18,11 @@ namespace OOP_Labb2_Arv
             this.hasSpots = hasSpots;
         }
 
+        public Duck() : this("No Name", 0, 0, "No Sound", "No Color", 0)
+        {
+
+        }
+
         public void CheckColor()
         {
             if (hasSpots == true)

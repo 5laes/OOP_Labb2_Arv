@@ -18,6 +18,11 @@ namespace OOP_Labb2_Arv
             this.isPoisonous = isPoisonous;
         }
 
+        public Spider() : this("No Name", 0, 0, "No Sound", "No Color", 0)
+        {
+
+        }
+
         public void CheckPoison()
         {
             if (isPoisonous == true)

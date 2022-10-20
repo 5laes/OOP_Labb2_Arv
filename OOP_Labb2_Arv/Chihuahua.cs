@@ -19,6 +19,11 @@ namespace OOP_Labb2_Arv
             this.isShaking = isShaking;
         }
 
+        public Chihuahua() : this("No Name", 0, 0, "No Sound", "No Color", 0, false)
+        {
+
+        }
+
         public void CheckShake()
         {
             if (isShaking == true)

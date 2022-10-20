@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP_Labb2_Arv
 {
-    public class Dog : Animal 
+    public class Dog : Animal
     {
         public int weight;
 
@@ -18,6 +18,11 @@ namespace OOP_Labb2_Arv
             this.weight = weight;
         }
 
+        public Dog() : this("No Name", 0, 0, "No Sound", "No Color", 0)
+        {
+
+        }
+        
         public void CheckWeight()
         {
             Console.Write($"\n\t{name} väger {weight}kg");
