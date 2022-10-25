@@ -8,6 +8,7 @@ namespace OOP_Labb2_Arv
     {
         public bool hasSpots;
 
+        //Konstruktor för att skapa ett object av "Duck"
         public Duck(string name, int age, int happiness, string sound, string color, bool hasSpots)
         {
             this.name = name;
@@ -18,7 +19,8 @@ namespace OOP_Labb2_Arv
             this.hasSpots = hasSpots;
         }
 
-        public Duck() : this("No Name", 0, 0, "No Sound", "No Color", 0)
+        //En default konstruktor overload
+        public Duck() : this("No Name", 0, 0, "No Sound", "No Color", false)
         {
 
         }

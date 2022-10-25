@@ -8,6 +8,7 @@ namespace OOP_Labb2_Arv
     {
         public int weight;
 
+        //Konstruktor för att skapa ett object av "Dog"
         public Dog(string name, int age, int happiness, string sound, string color, int weight)
         {
             this.name = name;
@@ -18,6 +19,7 @@ namespace OOP_Labb2_Arv
             this.weight = weight;
         }
 
+        //En default konstruktor overload
         public Dog() : this("No Name", 0, 0, "No Sound", "No Color", 0)
         {
 

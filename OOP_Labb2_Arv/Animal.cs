@@ -4,6 +4,7 @@ using System.Text;
 
 namespace OOP_Labb2_Arv
 {
+    //Basklass för alla djur
     public class Animal
     {
         public string name;

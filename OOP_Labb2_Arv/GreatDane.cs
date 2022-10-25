@@ -7,6 +7,8 @@ namespace OOP_Labb2_Arv
     public class GreatDane : Dog
     {
         public bool isSleeping;
+
+        //Konstruktor för att skapa ett object av "GreatDane"
         public GreatDane(string name, int age, int happiness, string sound, string color, int weight, bool isSleeping)
             : base(name, age, happiness, sound, color, weight)
         {
@@ -19,6 +21,7 @@ namespace OOP_Labb2_Arv
             this.isSleeping = isSleeping;
         }
 
+        //En default konstruktor overload
         public GreatDane() : this("No Name", 0, 0, "No Sound", "No Color", 0, false)
         {
 

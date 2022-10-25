@@ -8,6 +8,7 @@ namespace OOP_Labb2_Arv
     {
         public bool isPoisonous;
 
+        //Konstruktor för att skapa ett object av "Spider"
         public Spider(string name, int age, int happiness, string sound, string color, bool isPoisonous)
         {
             this.name = name;
@@ -18,7 +19,8 @@ namespace OOP_Labb2_Arv
             this.isPoisonous = isPoisonous;
         }
 
-        public Spider() : this("No Name", 0, 0, "No Sound", "No Color", 0)
+        //En default konstruktor overload
+        public Spider() : this("No Name", 0, 0, "No Sound", "No Color", false)
         {
 
         }
